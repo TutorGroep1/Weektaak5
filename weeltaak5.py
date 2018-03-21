@@ -31,7 +31,9 @@ def functie(seq):
         random.shuffle(seq)
         #print("> randomisate", index
         for letter in seq:
-            nieuw_bestand += letter
+            nieuw_bestand += letter        
+    print("Dit is het nieuwe bestand", nieuw_bestand)
+
 
 """
 
@@ -41,11 +43,7 @@ for i in range(100):
         temp += letter
     lijst.append(temP)
 
-""""
-        
-    print("Dit is het nieuwe bestand", nieuw_bestand)
-
-
+"""
 
 
 main()
