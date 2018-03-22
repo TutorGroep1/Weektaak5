@@ -66,7 +66,7 @@ def fasta_maker():
         string += '\n\n'
         fasta += string
         teller += 1
-        
+    print(fasta)    
     return fasta
         
 def bestand_maker():
